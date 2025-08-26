@@ -1,0 +1,14 @@
+/* Custom CSS to match the image's aesthetic */
+body {
+    background-color: #f0f2f5; /* A light gray background */
+}
+.navbar-brand {
+    color: #0056b3 !important; /* Blue color for logo */
+}
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.card-title {
+    color: #0056b3;
+}
