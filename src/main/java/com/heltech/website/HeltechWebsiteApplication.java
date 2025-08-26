@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 public class HeltechWebsiteApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Running...");
 		SpringApplication.run(HeltechWebsiteApplication.class, args);
 	}
 
