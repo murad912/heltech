@@ -1,0 +1,59 @@
+/* New Colors */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #1a1a2e;
+    --tertiary-color: #f0f2f5;
+    --accent-color: #e94560;
+}
+
+/* General Styles */
+body {
+    background-color: var(--tertiary-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Custom Navigation Bar */
+.bg-dark-custom {
+    background-color: var(--secondary-color) !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://picsum.photos/1920/1080?random=1') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+}
+
+/* Custom Button */
+.btn-primary-custom {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #d83049;
+    border-color: #d83049;
+}
